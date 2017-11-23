@@ -5,50 +5,52 @@
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <div id="home">
+    <div id="header"> <!-- Needs background image -->
       <h1>Broadway Design</h1>
       <nav>
-        <p><a href="#home">Home</a></p>
-        <p><a href="#about">About</a></p>
-        <p><a href="#work">Work</a></p>
-        <p><a href="#team">Team</a><p>
-        <p><a href="#contact">Contact</a></p>
+        <p><a class="nav" href="#home">Home</a></p>
+        <p><a class="nav" href="#about">About</a></p>
+        <p><a class="nav" href="#work">Work</a></p>
+        <p><a class="nav" href="#team">Team</a><p>
+        <p><a class="nav" href="#contact">Contact</a></p>
       </nav>
     </div>
     <div id="about">
       <h2>Our Process</h2>
       <img src="./resources/images/identify.svg">
       <h3>Identify</h3>
-      <p>We focus on the most important details</p>
+      <p class="content">We focus on the most important details</p>
       <img src="./resources/images/understand.svg">
       <h3>Understand</h3>
-      <p>We study our projects inside and out</p>
+      <p class="content">We study our projects inside and out</p>
       <img src="./resources/images/execute.svg">
       <h3>Execute</h3>
-      <p>We put everything we have into our work</p>
+      <p class="content">We put everything we have into our work</p>
     </div>
     <div id="work">
-      <h2>Designed in New York</h2>
+      <div class="section-break"><h3>Designed in New York</h3></div> <!-- Needs background image -->
       <h3>Portfolio</h3>
-      <p>Coming Soon</p>
+      <p class="content">Coming Soon</p>
     </div>
     <div id="team">
       <h3>Team</h3>
-      <p>We're Hiring!</p>
+      <p class="content">We're Hiring!</p>
     </div>
+    <!-- Contact Information -->
     <div id="contact">
       <h3>Contact</h3>
-      <p>Phone: (555)-555-5555</p>
-      <p>E-mail: test@example.com</p>
-      <p>Twitter: @test</p>
+      <p class="content">Phone: (555)-555-5555</p>
+      <p class="content">E-mail: test@example.com</p>
+      <p class="content">Twitter: @test</p>
     </div>
-    <div id="footer">
-      <p>&copy Broadway 2016
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
+    <!-- Footer Section -->
+    <div id="footer"> <!-- Needs to be left-aligned -->
+      <p id="copyright">&copy Broadway 2017
+        <a class="nav" href="#home">Home</a>
+        <a class="nav" href="#about">About</a>
+        <a class="nav" href="#work">Work</a>
+        <a class="nav" href="#team">Team</a>
+        <a class="nav" href="#contact">Contact</a>
       </p>
     </div>
   </body>
